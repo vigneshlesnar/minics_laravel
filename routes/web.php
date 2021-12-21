@@ -5,6 +5,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\JuteController;
 use App\Http\Controllers\LenoController;
+use App\Http\Controllers\PpController;
+use App\Http\Controllers\TarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,3 +55,9 @@ Route::get('/jute/{id}',[JuteController::class,'detail']);
 
 Route::get('/leno',[LenoController::class,'leno']);
 Route::get('/leno-detail/{id}',[LenoController::class,'detail']);
+
+Route::get('/pp',[PpController::class,'pp']);
+Route::get('/pp_detail/{id}',[PpController::class,'detail']);
+
+Route::get('/tar',[TarController::class,'tar']);
+Route::get('/tar_detail/{id}',[TarController::class,'detail']);

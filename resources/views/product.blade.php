@@ -50,8 +50,8 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="https://i.pinimg.com/736x/c5/18/05/c518050ff4f5a52321506d991fe0a1b9.jpg" alt="">
-              <a href="" class="add_cart_btn">
+              <img src="{{asset('images/pp/Large Packing bags.webp')}}" alt="">
+              <a href="{{url('pp')}}" class="add_cart_btn">
                 <span>
                   View Products
                 </span>
@@ -59,13 +59,31 @@
             </div>
             <div class="detail-box">
               <h5>
-                Vegetable bags
+                PP Fabric
               </h5>
               
             </div>
           </div>
         </div>
-        @foreach($products as $item)
+        <div class="col-sm-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="{{asset('images/tarpaulin/Canvas.jpg')}}" alt="">
+              <a href="{{url('tar')}}" class="add_cart_btn">
+                <span>
+                  View Products
+                </span>
+              </a>
+            </div>
+            <div class="detail-box">
+              <h5>
+                Tarpaulins
+              </h5>
+              
+            </div>
+          </div>
+        </div>
+        <!-- @foreach($products as $item)
         <div class="col-sm-6 col-lg-4 " >
           <div class="box">
             <div class="img-box">
@@ -96,7 +114,7 @@
           </div>
         </div>
           
-        @endforeach
+        @endforeach -->
         
       
     </div>
